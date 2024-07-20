@@ -1,0 +1,225 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 700;                                       
+}
+article.main {
+    flex: 1 1 auto;
+}
+#main {
+    border-bottom: 5px white solid;
+}
+h2 {
+    font-size: 48px;
+}
+p {
+    font-size: 32px;
+}
+/* h3 {
+    font-size: ;
+} */
+header.head {
+    margin-left: 0;
+}
+.carbon::before {
+    content: ""; 
+    background-image: url('https://i.redd.it/pppza1nztov01.jpg');
+    opacity: 0.1;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 540%;
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#ca2, #ca3 {
+    margin-top: 200px;
+}
+#ca1 {
+    margin-top: 100px;
+}
+#cf1 {
+    margin-top: 100px;
+}
+.btn1 {    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 243px;
+    height: 77px;
+    background: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 0;
+    border-color: white;
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 700;
+}
+.cnsl {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+.mini {
+    font-size: 15px;
+}
+.btn2, .btn3, .btn4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.squd {
+    container-type: "";
+    border: 50px;
+    border-color: aqua;
+}
+.img1 {
+    width: 1000px;
+    height: 1000px;
+    z-index: 10;
+}
+.img {
+    content: "image";
+    height: 1000px;
+    z-index: 0;
+    width: 1000px;
+}
+
+/* .img {
+    position: relative;
+    rotate: ;
+    right: -100px;
+    top: 170px; 
+    z-index: -1;
+    width: 500px;
+    height: auto;
+    float: right;
+} */
+.img1 {
+    position: relative;
+    width: 500px;
+    height: auto;
+    rotate: 90deg;
+}
+h1 {
+    font-size: 120px;
+}
+
+
+.iop {
+    width: 300px;
+    height: 250px;
+}
+.form {
+    width: 525px;
+    height: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    margin-top: 30px;
+    outline: 5px;
+    outline-style: solid;
+    outline-color: aliceblue;
+    /* font-family: 'Futura PT', sans-serif; */
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.check, .forcheck {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.check {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    outline-color: white;
+    z-index: 10;
+}
+.forcheck {
+    margin-left: -30px;
+}
+.knopka {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 0;
+    border-color: white;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* #zaiva {
+    outline: 20px;
+    border: 20px;
+    border-color: aliceblue;
+    outline-color: aliceblue;
+} */
+.sitemap {
+    font-size: 48px;
+}
+.contact {
+    font-size: 48px;
+}
+#nav1, #nav2, #nav3, #nav4 {
+    padding-top: 20px;
+    font-size: 24px;
+}
+#op1 {
+    border: 5px white solid;
+}
+#op1-1 {
+    border-left: 5px white solid;
+}
+#op2 {
+    border: 5px white solid;
+}
+#op2-1 {
+    border-right: 5px white solid;
+}
+#op3 {
+    border: 5px white solid;
+}
+#op3-1 {
+    border-left: 5px white solid;
+}
+
+.cnsl {
+    border: 5px white solid;
+}
+#zaiva {
+    border-right: 5px white solid;
+}
+.carousel-item {
+    height: 750px;
+} 
+#btn1 {
+    margin-top: 50px;
+}
